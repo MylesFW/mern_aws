@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 
 // environment variables
-const port = 5000
+const port = 50000
 const db_name = "mern-exam-D";
 
 require("./config/mongoose.config")(db_name); //require imports file, then immedietly executes the db_name function
